@@ -63,6 +63,9 @@ $color_ggap_grey:#3F3F3F;
 
 .mi-uppercase {
   text-transform:uppercase !important;
+  h1,h2,h3,h4,h5,h6,p,li {
+    text-transform:uppercase !important;
+  }
 }
 
 .fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {

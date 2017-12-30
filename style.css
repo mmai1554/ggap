@@ -1,0 +1,41 @@
+/*
+Theme Name: GGAB-Theme
+Description: Special built theme for beaver-builder
+Version: 1.0
+Author: mmai
+Author URI: http://www.mai-internet.de
+Template: bb-theme
+*/
+/**
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+.mi-logo { font-family: Arial, Helvetica, sans-serif; font-size: 21px; letter-spacing: 1px; font-weight: bold; white-space: nowrap; }
+
+.body { background-color: #FFF; }
+
+.mi-narrow-heading h3 { letter-spacing: 0.5px !important; text-transform: uppercase !important; font-size: 18px !important; }
+.mi-narrow-heading .uabb-infobox-left-right-wrap { max-width: 480px; }
+
+.mi-oeff .col0 { padding-right: 20px; }
+
+.mi-outline-black { text-shadow: 1px 0 0 #575757, 0 -1px 0 #575757, 0 1px 0 #575757, -1px 0 0 #575757; }
+
+.mi-text-shadow-black { text-shadow: 2px 2px 2px #000000; }
+
+.mi-text-shadow-white { text-shadow: 2px 2px 2px #000000; }
+
+.fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img { max-height: none !important; }
+
+.wpcf7-mail-sent-ok { font-size: 25px; color: #31A952; background-color: #FFF; }

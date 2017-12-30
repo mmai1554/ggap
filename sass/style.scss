@@ -57,6 +57,10 @@ $color_ggap_grey:#3F3F3F;
   @include text-shadow(#000000);
 }
 
+.mi-uppercase {
+  text-transform:uppercase;
+}
+
 .fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {
   // max-height:none !important;
 }

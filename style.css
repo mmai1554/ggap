@@ -36,6 +36,8 @@ Template: bb-theme
 
 .mi-text-shadow-white { text-shadow: 2px 2px 2px #000000; }
 
-.mi-uppercase { text-transform: uppercase; }
+.mi-lowercase { text-transform: lowercase; }
+
+.mi-uppercase { text-transform: uppercase !important; }
 
 .wpcf7-mail-sent-ok { font-size: 25px; color: #31A952; background-color: #FFF; }

@@ -6,11 +6,10 @@ Author: mmai
 Author URI: http://www.mai-internet.de
 Template: bb-theme
 */
-// @import "icons_vema";
 @import "mi_mixins";
 
-$color_orange:#DEA340;
-$color_blau:#04447C;
+$color_ggap_orange:#E96927;
+$color_ggap_grey:#3F3F3F;
 
 .fl-logo-img {
   // max-width:120px;
@@ -59,7 +58,7 @@ $color_blau:#04447C;
 }
 
 .fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {
-  max-height:none !important;
+  // max-height:none !important;
 }
 .wpcf7-mail-sent-ok {
   font-size:25px;

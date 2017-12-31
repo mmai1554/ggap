@@ -161,7 +161,7 @@ $screen-xs-max: $screen-sm-min - 1;
       @content;
     }
   } @else if $point == bigscreen {
-    @media (max-width: $screen-xlg-min) {
+    @media (min-width: $screen-xlg-min) {
       @content;
     }
   }

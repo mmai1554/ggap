@@ -18,7 +18,7 @@ $color_ggap_grey:#3F3F3F;
 .mi-spacer-largescreen {
   .uabb-spacer-gap-preview.uabb-spacer-gap {
     @include bp(bigscreen) {
-      height:65vh;
+      height:65vh; //
     }
   }
 }

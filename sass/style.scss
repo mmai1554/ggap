@@ -15,6 +15,12 @@ $color_ggap_grey:#3F3F3F;
   // max-width:120px;
 }
 
+.mi-spacer-largescreen {
+  @include bp(desktop) {
+    height:30vh;
+  }
+}
+
 .mi-logo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;

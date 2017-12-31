@@ -116,6 +116,7 @@
 @media (min-width: 1200px) { ... }
  */
 
+$screen-xlg-min: 1400px;
 $screen-lg-min: 1200px;
 
 $screen-md-min: 1024px;
@@ -159,7 +160,12 @@ $screen-xs-max: $screen-sm-min - 1;
     @media (max-width: $screen-sm-max) {
       @content;
     }
+  } @else if $point == bigscreen {
+    @media (max-width: $screen-xlg-min) {
+      @content;
+    }
   }
+
 }
 
 @mixin top_link($color) {

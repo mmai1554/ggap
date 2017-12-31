@@ -68,6 +68,10 @@ $color_ggap_grey:#3F3F3F;
   }
 }
 
+.fl-module-content a, .fl-module-content a:hover, .fl-module-content a:focus {
+  text-decoration: underline;
+}
+
 .fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {
   // max-height:none !important;
 }

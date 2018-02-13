@@ -45,4 +45,6 @@ Template: bb-theme
 
 .fl-module-content a, .fl-module-content a:hover, .fl-module-content a:focus { text-decoration: underline; }
 
+.mi-menu a { text-decoration: none !important; }
+
 .wpcf7-mail-sent-ok { font-size: 25px; color: #31A952; background-color: #FFF; }

@@ -57,13 +57,19 @@ $color_ggap_grey:#3F3F3F;
   @include outline(#575757);
 }
 
-.mi-text-shadow-black {
+.mi-text-shadow-black, .mi-textshadow-black {
   @include text-shadow(#000000);
 }
 
-.mi-text-shadow-white {
-  @include text-shadow(#000000);
+.mi-text-shadow-white, mi-textshadow-white  {
+  @include text-shadow(#FFFFFF);
 }
+
+.mi-textoutline-white {
+  @include outline(#FFFFFF);
+}
+
+
 
 .mi-lowercase {
   text-transform:lowercase;

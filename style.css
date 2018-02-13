@@ -34,9 +34,11 @@ Template: bb-theme
 
 .mi-outline-black { text-shadow: 1px 0 0 #575757, 0 -1px 0 #575757, 0 1px 0 #575757, -1px 0 0 #575757; }
 
-.mi-text-shadow-black { text-shadow: 2px 2px 2px #000000; }
+.mi-text-shadow-black, .mi-textshadow-black { text-shadow: 2px 2px 2px #000000; }
 
-.mi-text-shadow-white { text-shadow: 2px 2px 2px #000000; }
+.mi-text-shadow-white, mi-textshadow-white { text-shadow: 2px 2px 2px #FFFFFF; }
+
+.mi-textoutline-white { text-shadow: 1px 0 0 #FFFFFF, 0 -1px 0 #FFFFFF, 0 1px 0 #FFFFFF, -1px 0 0 #FFFFFF; }
 
 .mi-lowercase { text-transform: lowercase; }
 

@@ -34,6 +34,15 @@ function load_template_part( $template_name, $part_name = null ) {
 	return $var;
 }
 
+// Add to the admin_init hook of your theme functions.php file
+add_action( 'init', function() {
+	register_taxonomy_for_object_type('post_tag', 'page');
+	register_taxonomy_for_object_type('category', 'page');
+} );
+
+
+// Some shortcodes
+
 add_shortcode( 'mi_email', function ( $atts ) {
 	return'<a href="mailto:info@m-trans-fahrzeugservice.de">E-Mail:&nbsp;info@m-trans-fahrzeugservice.de</a>';
 } );

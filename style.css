@@ -48,3 +48,5 @@ Template: bb-theme
 .mi-menu a { text-decoration: none !important; }
 
 .wpcf7-mail-sent-ok { font-size: 25px; color: #31A952; background-color: #FFF; }
+
+.fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img { max-height: 70px; }

@@ -8,8 +8,8 @@ Template: bb-theme
 */
 @import "mi_mixins";
 
-$color_ggap_orange:#E96927;
-$color_ggap_grey:#3F3F3F;
+$color_ggap_orange: #E96927;
+$color_ggap_grey: #3F3F3F;
 
 .fl-logo-img {
   // max-width:120px;
@@ -18,7 +18,7 @@ $color_ggap_grey:#3F3F3F;
 .mi-spacer-largescreen {
   .uabb-spacer-gap-preview.uabb-spacer-gap {
     @include bp(bigscreen) {
-      height:65vh; //
+      height: 65vh; //
     }
   }
 }
@@ -28,28 +28,27 @@ $color_ggap_grey:#3F3F3F;
   font-size: 21px;
   letter-spacing: 1px;
   font-weight: bold;
-  white-space:nowrap;
+  white-space: nowrap;
 }
 
-
 .body {
-  background-color:#FFF;
+  background-color: #FFF;
 }
 
 .mi-narrow-heading {
   h3 {
-    letter-spacing:0.5px !important;
-    text-transform:uppercase !important;
-    font-size:18px !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
   }
   .uabb-infobox-left-right-wrap {
-    max-width:480px;
+    max-width: 480px;
   }
 }
 
 .mi-oeff {
   .col0 {
-    padding-right:20px;
+    padding-right: 20px;
   }
 }
 
@@ -61,7 +60,7 @@ $color_ggap_grey:#3F3F3F;
   @include text-shadow(#000000);
 }
 
-.mi-text-shadow-white, mi-textshadow-white  {
+.mi-text-shadow-white, mi-textshadow-white {
   @include text-shadow(#FFFFFF);
 }
 
@@ -69,16 +68,14 @@ $color_ggap_grey:#3F3F3F;
   @include outline(#FFFFFF);
 }
 
-
-
 .mi-lowercase {
-  text-transform:lowercase;
+  text-transform: lowercase;
 }
 
 .mi-uppercase {
-  text-transform:uppercase !important;
-  h1,h2,h3,h4,h5,h6,p,li {
-    text-transform:uppercase !important;
+  text-transform: uppercase !important;
+  h1, h2, h3, h4, h5, h6, p, li {
+    text-transform: uppercase !important;
   }
 }
 
@@ -93,18 +90,100 @@ $color_ggap_grey:#3F3F3F;
 .fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {
   // max-height:none !important;
 }
+
 .wpcf7-mail-sent-ok {
-  font-size:25px;
-  color:#31A952;
-  background-color:#FFF;
+  font-size: 25px;
+  color: #31A952;
+  background-color: #FFF;
 }
 
 .fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {
-  max-height:70px;
+  max-height: 70px;
 }
 
 .home header.fl-theme-builder-header-shrink {
   background-color: rgba(253, 253, 253, 0.75);
 }
+
+.datatable {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+  }
+  td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  @include bp(mobile) {
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      border: 1px solid #ccc;
+    }
+
+    td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+    }
+
+    td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+    }
+
+    /*
+    Label the data
+    */
+    td:nth-of-type(1):before {
+      content: "Appartement";
+    }
+    td:nth-of-type(2):before {
+      content: "Wohnfläche";
+    }
+    td:nth-of-type(3):before {
+      content: "qm";
+    }
+    td:nth-of-type(4):before {
+      content: "Loggia";
+    }
+    td:nth-of-type(5):before {
+      content: "Terasse";
+    }
+    td:nth-of-type(6):before {
+      content: "Geschoss";
+    }
+  }
+}
+
+
 
 

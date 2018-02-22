@@ -59,7 +59,7 @@ Template: bb-theme
 .datatable { /* Zebra striping */ }
 .datatable table { width: 100%; border-collapse: collapse; }
 .datatable tr:nth-of-type(odd) { background: #eee; }
-.datatable th { background: #333; color: white; font-weight: bold; }
+.datatable th { background: #949494; color: white; font-weight: bold; }
 .datatable td, .datatable th { padding: 6px; border: 1px solid #ccc; text-align: left; }
 @media (max-width: 767px) { .datatable { /* Force table to not be like tables anymore */ /* Hide table headers (but not display: none;, for accessibility) */ /*
 Label the data

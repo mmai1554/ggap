@@ -76,4 +76,6 @@ Label the data
   .datatable td:nth-of-type(5):before { content: "Terasse"; }
   .datatable td:nth-of-type(6):before { content: "Geschoss"; } }
 
-.mi-blocksatz { text-align: justify; line-heigt: 1.7em; }
+.mi-blocksatz { text-align: justify; line-height: 1.7em; }
+
+@media (max-width: 767px) { .fl-builder-content[data-overlay="1"]:not(.fl-theme-builder-header-sticky) { position: relative; } }

@@ -186,8 +186,15 @@ $color_ggap_grey: #3F3F3F;
 
 .mi-blocksatz {
   text-align:justify;
-  line-heigt:1.7em;
+  line-height:1.7em;
 }
+
+@include bp(mobile) {
+  .fl-builder-content[data-overlay="1"]:not(.fl-theme-builder-header-sticky) {
+    position: relative;
+  }
+}
+
 
 
 

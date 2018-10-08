@@ -80,7 +80,7 @@ Label the data
 
 .mi-menu a { text-decoration: none !important; }
 
-.mi-facebook a { color: white; background-color: #4667AC !important; }
+.mi-facebook a { color: white !important; background-color: #4667AC !important; }
 .mi-facebook .sub-menu a { background-color: white !important; }
 
 .mi-hide { display: none !important; visibility: hidden !important; }

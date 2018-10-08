@@ -197,6 +197,9 @@ $color_ggap_grey: #3F3F3F;
   a {
     color: white !important;
     background-color: #4667AC !important;
+    .menu-item-text {
+      color: white !important;
+    }
   }
   .sub-menu a {
     background-color:white !important;
